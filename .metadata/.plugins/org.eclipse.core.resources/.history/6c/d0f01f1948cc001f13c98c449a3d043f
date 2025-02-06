@@ -1,0 +1,8 @@
+package com.app.shyam;
+
+public class CharCount {
+public static void main(String[] args) {
+	String str="shyam sundar yadav";
+	str.chars().mapToObj(c->(char)c).forEach(System.out::println);
+}
+}
