@@ -1,0 +1,7 @@
+package com.shyam;
+
+public class ReverseArrayInPlace {
+public static void main(String[] args) {
+	
+}
+}

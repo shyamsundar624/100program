@@ -1,0 +1,27 @@
+package com.shyam.collection;
+
+public class Student implements Comparable<Student>{
+String name;
+int marks;
+
+
+@Override
+public String toString() {
+	return "Student [name=" + name + ", marks=" + marks + "]";
+}
+
+
+public Student(String name, int marks) {
+	super();
+	this.name = name;
+	this.marks = marks;
+}
+
+
+@Override
+public int compareTo(Student o) {
+	// TODO Auto-generated method stub
+	return this.marks-o.marks;
+}
+
+}

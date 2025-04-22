@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.creation.factoryDesign.Product.java&apos; to &apos;Shape.java&apos;&#x0D;&#x0A;- Original project: &apos;DesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;com.creation.factoryDesign.Product.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.creation.factoryDesign.Shape.java&apos;" description="Rename compilation unit &apos;Product.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.creation.factoryDesign{Product.java" name="Shape.java" references="false" stamp="1744306872342" version="1.0"/>
+</session>

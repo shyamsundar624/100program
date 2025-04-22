@@ -1,0 +1,22 @@
+package com.shyam.collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class StudentSOrting {
+public static void main(String[] args) {
+	List<Student> list=new ArrayList<>();
+	
+	list.add(new Student("Shyam", 15));
+	list.add(new Student("Sundar", 12));
+	list.add(new Student("yadav", 13));
+	list.add(new Student("Radha", 14));
+	
+	Collections.sort(list);
+	
+	list.sort(Comparator.comparing(s->s.name));
+	System.out.println(list);
+}
+}

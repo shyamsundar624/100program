@@ -1,0 +1,8 @@
+package com.shyam;
+
+public class MergeArray {
+public static void main(String[] args) {
+	 Integer[] array1 = {1, 2, 3};
+     Integer[] array2 = {4, 5, 6};
+}
+}

@@ -1,0 +1,6 @@
+package com.shyam.collection;
+
+public class Student {
+String name;
+int marks;
+}

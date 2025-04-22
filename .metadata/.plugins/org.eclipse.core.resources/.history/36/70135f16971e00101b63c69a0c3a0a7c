@@ -1,0 +1,10 @@
+package com.shyam;
+
+import java.util.Arrays;
+
+public class SecondLargestNumber {
+	public static void main(String[] args) {
+Arrays.asList(10,15,12,50,66,18);
+
+	}
+}

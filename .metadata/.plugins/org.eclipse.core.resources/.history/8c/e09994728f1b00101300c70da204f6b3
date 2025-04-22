@@ -1,0 +1,9 @@
+package com.shyam.stream;
+
+import java.util.List;
+
+public class ReverseCollection {
+public static void main(String[] args) {
+	List<String>list=List.of("shyam","sundar","sundar","attending","Interview");
+}
+}

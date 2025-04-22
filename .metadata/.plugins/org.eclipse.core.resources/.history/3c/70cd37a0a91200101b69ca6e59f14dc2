@@ -1,0 +1,7 @@
+package com.shyam.collection;
+
+public class StudentSOrting {
+public static void main(String[] args) {
+	
+}
+}
