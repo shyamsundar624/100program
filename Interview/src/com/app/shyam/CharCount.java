@@ -1,0 +1,14 @@
+package com.app.shyam;
+
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class CharCount {
+	public static void main(String[] args) {
+		String str = "shyam sundar yadav";
+		Map<Character, Long> collect = str.chars().mapToObj(c -> (char) c).filter(c->c!=' ')
+				.collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+
+		System.out.println(collect);
+	}
+}
